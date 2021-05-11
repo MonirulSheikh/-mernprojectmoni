@@ -1,0 +1,28 @@
+.icon{
+
+  
+  animation:  rotate 2s linear infinite;
+}
+@keyframes rotate {
+100%{
+  transform: rotate(360deg);
+}
+
+}
+.error{
+opacity: .5;
+color: lightcoral;
+
+}
+.moni{
+  position: relative;
+  margin-top: 10px;
+  border:  solid black 1px;
+}
+.moni2{
+ padding-top: 10px;
+}
+
+textarea{
+  resize: none;
+}
